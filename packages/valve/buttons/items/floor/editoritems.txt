@@ -15,7 +15,7 @@
 				"Palette"
 				{
 					"Tooltip"		"PORTAL2_PuzzleEditor_Palette_portal_button"
-					"Image"			"palette/portal_button.png"
+					"Image"			"palette/rendered/clean/buttons/portal_button.png"
 					"Position"		"1 0 0"
 				}
 				"Sounds"
@@ -36,7 +36,7 @@
 				"Palette"
 				{
 					"Tooltip"		"PORTAL2_PuzzleEditor_Palette_cube_button"
-					"Image"			"palette/box_socket.png"
+					"Image"			"palette/rendered/clean/buttons/box_socket.png"
 					"Position"		"2 0 0"
 				}
 				"Sounds"
@@ -57,7 +57,7 @@
 				"Palette"
 				{
 					"Tooltip"		"PORTAL2_PuzzleEditor_Palette_sphere_button"
-					"Image"			"palette/ball_socket.png"
+					"Image"			"palette/rendered/clean/buttons/ball_socket.png"
 					"Position"		"3 0 0"
 				}
 				"Sounds"
