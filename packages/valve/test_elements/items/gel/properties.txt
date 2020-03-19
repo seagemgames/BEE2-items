@@ -14,13 +14,13 @@
 	"infoURL"		"https:/\/developer.valvesoftware.com/wiki/Portal_2_Puzzle_Maker/Gel"
 	"Ent_Count"     "2 (splat)\n3 (dropper)"
 	"all_name"		"GELS"
-	"all_icon"		"palette/grouped/paints.png"
+	"all_icon"		"palette/rendered/clean/test_elements/grouped/paints.png"
 	"Icon"
 		{
-			"all"	"clean/paints.png"
-			"0"		"clean/paintsplat_bounce.png"
-			"1"		"clean/paintsplat_speed.png"
-			"2"		"clean/paintsplat_portal.png"
-			"3"		"clean/paintsplat_water.png"
+			"all"	"rendered/clean/test_elements/paints.png"
+			"0"		"rendered/clean/test_elements/paintsplat_bounce.png"
+			"1"		"rendered/clean/test_elements/paintsplat_speed.png"
+			"2"		"rendered/clean/test_elements/paintsplat_portal.png"
+			"3"		"rendered/clean/test_elements/paintsplat_water.png"
 		}
 	}

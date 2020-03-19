@@ -15,7 +15,7 @@
 			"Palette"
 				{
 				"Tooltip"	"PORTAL2_PuzzleEditor_Palette_paint_bounce"
-				"Image"		"palette/paintsplat_bounce.png"
+				"Image"		"palette/rendered/clean/test_elements/paintsplat_bounce.png"
 				"Position"	"0 7 0"
 				}
 			"Sounds"
@@ -36,7 +36,7 @@
 			"Palette"
 				{
 				"Tooltip"	"PORTAL2_PuzzleEditor_Palette_paint_speed"
-				"Image"		"palette/paintsplat_speed.png"
+				"Image"		"palette/rendered/clean/test_elements/paintsplat_speed.png"
 				"Position"	"1 7 0"
 				}
 			"Sounds"
@@ -57,7 +57,7 @@
 			"Palette"
 				{
 				"Tooltip"	"PORTAL2_PuzzleEditor_Palette_paint_portal"
-				"Image"		"palette/paintsplat_portal.png"
+				"Image"		"palette/rendered/clean/test_elements/paintsplat_portal.png"
 				"Position"	"2 7 0"
 				}
 			"Sounds"
@@ -78,7 +78,7 @@
 			"Palette"
 				{
 				"Tooltip"	"PORTAL2_PuzzleEditor_Palette_paint_water"
-				"Image"		"palette/paintsplat_water.png"
+				"Image"		"palette/rendered/clean/test_elements/paintsplat_water.png"
 				"Position"	"3 7 0"
 				}
 			"Sounds"
