@@ -6,6 +6,6 @@
 	"ent_count"     "7"
 	"Icon"
 		{
-			"0"	"clean/laser_emitter.png"
+			"0"	"rendered/clean/dis_beams/laser_emitter.png"
 		}
 	}

@@ -13,7 +13,7 @@
 			"Palette"
 				{
 				"Tooltip"	"PORTAL2_PuzzleEditor_Palette_laser_catcher"
-				"Image"		"palette/laser_catcher.png"
+				"Image"		"palette/rendered/clean/dis_beams/laser_catcher.png"
 				}
 			"Sounds"
 				{

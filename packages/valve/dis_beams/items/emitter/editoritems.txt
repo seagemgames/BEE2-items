@@ -14,7 +14,7 @@
 			"Palette"
 				{
 				"Tooltip"	"PORTAL2_PuzzleEditor_Palette_laser_emitter"
-				"Image"		"palette/laser_emitter.png"
+				"Image"		"palette/rendered/clean/dis_beams/laser_emitter.png"
 				}
 			"Sounds"
 				{

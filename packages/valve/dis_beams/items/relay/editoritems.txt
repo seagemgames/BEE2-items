@@ -13,7 +13,7 @@
 			"Palette"
 				{
 				"Tooltip"	"PORTAL2_PuzzleEditor_Palette_laser_relay"
-				"Image"		"palette/laser_receptacle.png"
+				"Image"		"palette/rendered/clean/dis_beams/laser_receptacle.png"
 				"Position"	"2 4 0"
 				}
 			"Sounds"
