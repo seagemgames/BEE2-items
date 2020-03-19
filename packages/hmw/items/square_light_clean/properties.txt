@@ -2,13 +2,13 @@
 	{
 	"Authors" "HMW"
 	"Tags" "Geometry; Lighting"
-	"all_icon" "palette/grouped/hmw_square_light.png"
+	"all_icon" "palette/rendered/clean/hmw/grouped/square_lights.png"
 	"all_name" "SQUARE LIGHTS"
 	"Icon"
 		{
-		"all" "clean/hmw/square_light.png"		
-		"0" "clean/hmw/square_light_warm.png" 
-		"1" "clean/hmw/square_light_neutral.png"
-		"2" "clean/hmw/square_light_cool.png"
+		"all" "rendered/clean/hmw/square_lights.png"		
+		"0" "rendered/clean/hmw/square_light_warm.png" 
+		"1" "rendered/clean/hmw/square_light_neutral.png"
+		"2" "rendered/clean/hmw/square_light_cool.png"
 		}
 	}

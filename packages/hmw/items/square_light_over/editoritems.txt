@@ -15,7 +15,7 @@
 			"Palette"
 			{
 				"Tooltip"   "SQUARE WARM LIGHT"
-				"Image"     "palette/hmw/square_light_warm.png"
+				"Image"     "palette/rendered/clean/hmw/square_light_warm.png"
 			}
 			"Sounds"
 			{
@@ -35,7 +35,7 @@
 			"Palette"
 			{
 				"Tooltip"   "SQUARE NEUTRAL LIGHT"
-				"Image"     "palette/hmw/square_light_neutral.png"
+				"Image"     "palette/rendered/clean/hmw/square_light_neutral.png"
 			}
 			"Sounds"
 			{
@@ -55,7 +55,7 @@
 			"Palette"
 			{
 				"Tooltip"   "SQUARE COOL LIGHT"
-				"Image"     "palette/hmw/square_light_cool.png"
+				"Image"     "palette/rendered/clean/hmw/square_light_cool.png"
 			}
 			"Sounds"
 			{

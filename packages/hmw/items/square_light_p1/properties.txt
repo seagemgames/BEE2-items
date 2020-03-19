@@ -7,13 +7,13 @@
 		"" "* Portal 1-era lighting is a large hole in the wall, lit from an unknown source. On the floor, the light is covered with a grate."
 		}
 	
-	"All_Icon"  "palette/grouped/hmw_square_light.png"
+	"All_Icon"  "palette/rendered/clean/hmw/grouped/square_lights.png"
 	"All_Name"  "SQUARE LIGHTS"
 	"Icon"
 		{
-		"all"   "clean/hmw/square_light.png"		
-		"0"     "clean/hmw/square_light_warm.png"
-		"1"     "clean/hmw/square_light_neutral.png"
-		"2"     "clean/hmw/square_light_cool.png"
+		"all"   "rendered/clean/hmw/square_lights.png"		
+		"0"     "rendered/clean/hmw/square_light_warm.png"
+		"1"     "rendered/clean/hmw/square_light_neutral.png"
+		"2"     "rendered/clean/hmw/square_light_cool.png"
 		}
 	}
