@@ -7,6 +7,6 @@
 	"Ent_count"     "6"
 	"Icon"
 		{
-			"0"	"clean/large_obs_room.png"
+			"0"	"rendered/clean/clean_style/large_obs_room.png"
 		}
 	}
