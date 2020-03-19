@@ -14,7 +14,7 @@
 			"Palette"
 				{
 				"Tooltip"		"PORTAL2_PuzzleEditor_Palette_light_bridge"
-				"Image"			"palette/hard_light_emitter.png"
+				"Image"			"palette/rendered/clean/test_elements/hard_light_emitter.png"
 				"Position"		"2 2 0"
 				}
 			"Sounds"

@@ -6,6 +6,6 @@
 	"Ent_count"     "4"
 	"Icon"
 		{
-			"0"	"clean/hard_light_emitter.png"
+			"0"	"rendered/clean/test_elements/hard_light_emitter.png"
 		}
 	}
