@@ -12,6 +12,6 @@
 	"Ent_count"     "10"
 	"Icon"
 		{
-			"0"	"clean/faithplate.png"
+			"0"	"rendered/clean/test_elements/faithplate.png"
 		}
 	}

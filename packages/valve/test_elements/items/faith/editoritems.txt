@@ -14,7 +14,7 @@
 			"Palette"
 				{
 				"Tooltip"	"PORTAL2_PuzzleEditor_Palette_faith_plate"
-				"Image"		"palette/faithplate.png"
+				"Image"		"palette/rendered/clean/test_elements/faithplate.png"
 				"Position"	"1 2 0"
 				}
 			"Sounds"
