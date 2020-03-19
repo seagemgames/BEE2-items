@@ -14,7 +14,7 @@
 			"Palette"
 			{
 				"Tooltip"	"ENTRY DOOR"
-				"Image"		"palette/entry_door.png"
+				"Image"		"palette/rendered/clean/clean_style/entry_door.png"
 			}
 		}
 		"MovementHandle"		"HANDLE_NONE"
