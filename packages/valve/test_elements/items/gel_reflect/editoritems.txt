@@ -14,7 +14,7 @@
 			"Palette"
 			{
 				"Tooltip"	"REFLECTION GEL"
-				"Image"		"palette/paintsplat_reflection.png"
+				"Image"		"palette/rendered/clean/test_elements/paintsplat_reflection.png"
 				"Position"	"0 6 0"
 			}
 			"Sounds"

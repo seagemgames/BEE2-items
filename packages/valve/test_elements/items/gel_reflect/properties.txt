@@ -15,6 +15,6 @@
 	"Ent_Count"     "2 (splat)\n9 (dropper)"
 	"Icon"
 		{
-			"0"		"clean/paintsplat_reflection.png"
+			"0"		"rendered/clean/test_elements/paintsplat_reflection.png"
 		}
 	}
