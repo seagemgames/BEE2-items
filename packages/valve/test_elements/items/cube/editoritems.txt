@@ -19,7 +19,7 @@
 			"Palette"
 				{
 				"Tooltip"	"PORTAL2_PuzzleEditor_Palette_weighted_cube"
-				"Image"		"palette/cube.png"
+				"Image"		"palette/rendered/clean/test_elements/cube.png"
 				}
 			"Sounds"
 				{
@@ -56,7 +56,7 @@
 			"Palette"
 				{
 				"Tooltip"	"PORTAL2_PuzzleEditor_Palette_companion_cube"
-				"Image"		"palette/companion_cube.png"
+				"Image"		"palette/rendered/clean/test_elements/companion_cube.png"
 				}
 			"Sounds"
 				{
@@ -94,7 +94,7 @@
 			"Palette"
 				{
 				"Tooltip"	"PORTAL2_PuzzleEditor_Palette_reflection_cube"
-				"Image"		"palette/reflection_cube.png"
+				"Image"		"palette/rendered/clean/test_elements/reflection_cube.png"
 				}
 			"Sounds"
 				{
@@ -131,7 +131,7 @@
 			"Palette"
 				{
 				"Tooltip"	"PORTAL2_PuzzleEditor_Palette_sphere"
-				"Image"		"palette/edgeless_safety_cube.png"
+				"Image"		"palette/rendered/clean/test_elements/edgeless_safety_cube.png"
 				}
 			"Sounds"
 				{
@@ -168,7 +168,7 @@
 			"Palette"
 				{
 				"Tooltip"	"PORTAL2_PuzzleEditor_Palette_franken_cube"
-				"Image"		"palette/frankenturret.png"
+				"Image"		"palette/rendered/clean/test_elements/frankenturret.png"
 				}
 			"Sounds"
 				{
