@@ -6,6 +6,6 @@
 	"Ent_count"     "3: (no inputs)\n8: (with inputs)"
 	"Icon"
 		{
-			"0"	"clean/tspen/faithplate_128.png"
+			"0"	"rendered/clean/faith_variants/faithplate_128.png"
 		}
 	}

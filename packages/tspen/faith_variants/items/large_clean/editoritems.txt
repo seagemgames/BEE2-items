@@ -17,7 +17,7 @@
 			"Palette"
 				{
 				"Tooltip"	"FAITH PLATE - LARGE"
-				"Image"		"palette/tSpen/faithplate_128.png"
+				"Image"		"palette/rendered/clean/faith_variants/faithplate_128.png"
 				}
 			"Sounds"
 				{
