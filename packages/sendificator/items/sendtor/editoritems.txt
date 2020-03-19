@@ -13,7 +13,7 @@
 			"Palette"
 				{
 				"Tooltip"   "SENDIFICATOR"
-				"Image"     "palette/hmw/sendificator.png"
+				"Image"     "palette/rendered/clean/sendificator/sendificator.png"
 				}
 			"Sounds"
 				{
