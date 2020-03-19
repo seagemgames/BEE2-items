@@ -14,7 +14,7 @@
 				"Palette"
 				{
 					"Tooltip"	"PORTAL2_PuzzleEditor_Palette_turret"
-					"Image"		"palette/turret.png"
+					"Image"		"palette/rendered/clean/hazards/turret.png"
 					"Position"	"1 6 0"
 				}
 				"Sounds"

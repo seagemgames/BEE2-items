@@ -7,6 +7,6 @@
 	"Ent_count"     "2"
 	"Icon"
 		{
-			"0"	"clean/turret.png"
+			"0"	"rendered/clean/hazards/turret.png"
 		}
 	}
