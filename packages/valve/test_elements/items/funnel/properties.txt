@@ -6,6 +6,6 @@
 	"Ent_count"     "4"
 	"Icon"
 		{
-			"0"	"clean/tbeam.png"
+			"0"	"rendered/clean/test_elements/tbeam.png"
 		}
 	}

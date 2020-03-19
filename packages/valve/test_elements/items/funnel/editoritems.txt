@@ -14,7 +14,7 @@
 			"Palette"
 			{
 				"Tooltip"		"PORTAL2_PuzzleEditor_Palette_tractor_beam"
-				"Image"			"palette/tbeam.png"
+				"Image"			"palette/rendered/clean/test_elements/tbeam.png"
 			}
 			"Sounds"
 			{
