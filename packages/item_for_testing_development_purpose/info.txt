@@ -1,0 +1,16 @@
+"ID"    "ITEM_LAUTARO_STANDING_FIZZLER_TEST"        
+"Name"  "dummy item for testing development only"    
+"Desc"  "This is just a dummy item for testing development like conditions from the config file as: PosIsSolid or BlockType."    
+
+"Item"
+	{ 
+	"ID"       "ITEM_LAUTARO_STANDING_FIZZLER_TEMPLATE_TEST"
+	"Unstyled" "1"
+	"Version"
+		{
+		"Styles"
+			{
+			"ANY"	"standing_fizzler"
+			}
+		}
+	}

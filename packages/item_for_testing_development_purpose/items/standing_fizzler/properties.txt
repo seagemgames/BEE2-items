@@ -1,0 +1,13 @@
+"Properties"
+	{
+	"Authors"		"Lautaro"
+	"Description"   
+	{
+	"" "This is just a dummy item for testing development like conditions from the config file as: PosIsSolid or BlockType."
+	}
+	"ent_count"	"0"
+	"Icon"
+		{
+			"0"		"lautaro/standing_fizzler.png"
+		}
+	}
