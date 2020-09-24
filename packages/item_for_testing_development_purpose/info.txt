@@ -5,12 +5,17 @@
 "Item"
 	{ 
 	"ID"       "ITEM_LAUTARO_STANDING_FIZZLER_TEMPLATE_TEST"
-	"Unstyled" "1"
 	"Version"
 		{
 		"Styles"
 			{
-			"ANY"	"standing_fizzler"
+			"BEE2_CLEAN"	"standing_fizzler_clean"
 			}
 		}
 	}
+	
+"BrushTemplate"
+	{
+	"ID"    "LAUTARO_QUICK_STANDING_WALL_PILLAR_CLEAN_OVER"
+	"File"  "quick_standing_wall_pillar_clean_over.vmf"
+	}	
