@@ -29,19 +29,32 @@ This also includes Reflection Gel (since this is implemented in the original Gel
 		}
 	"Widget"
 		{
+		"ID"      "WakeLaserCubes"
+		"Type"    "Slider"
+		"Default" "0"
+		
+		"Min"     "0"
+		"Max"     "5"
+		"Step"    "0.1"
+
+		"Label"   "Laser Cube Wakeup Timer"
+		"Tooltip" "Periodically wake up Laser Cubes, to prevent the laser cube floating glitch. This however will cause all laser cubes to \"jump\" around, potentially knocking them out of alignment with targets."
+		}
+	"Widget"
+		{
 		"ID"      "BlockPlayerGelBomb"
 		"Type"    "Checkbox"
 		"Default" "1"
 		
 		"Label"   "Block Gel Bomb Nudging"
-		"Description" "Detonate Gel Bombs when they get close to the player, so they can't nudge them around.
+		"Tooltip" "Detonate Gel Bombs when they get close to the player, so they can't nudge them around.
 This doesn't affect cube nudging. When the bomb explodes like this, it does not paint anything."
 		}
 		
 	"Widget"
 		{
 		"ID"      "FunnelSpeed"
-		"Type"    "slider"
+		"Type"    "Slider"
 		"Default" "250"
 		
 		"Min"     "150"
@@ -49,7 +62,7 @@ This doesn't affect cube nudging. When the bomb explodes like this, it does not 
 		"Step"    "50"
 		
 		"Label"   "Funnel Speed"
-		"Description" "Funnels have the hidden ability to adjust the speed they move at. Use this to reduce waiting in large chambers."
+		"Tooltip" "Funnels have the hidden ability to adjust the speed they move at. Use this to reduce waiting in large chambers."
 		}
 	}
 
@@ -68,8 +81,8 @@ This doesn't affect cube nudging. When the bomb explodes like this, it does not 
 		"" "* Place Propulsion or Repulsion Gel splats on top of Cubes or Droppers to make them spawn already painted with that color.  "
 		"" "  Repulsion Gel will be applied as it leaves the dropper."
 		"" "* Set the `Timer Delay` on a dropperless Cube and Dropper to the same value to link them together.  "
-		"" "  The cube will then respawn from the dropper. This is useful to precisely position cubes, or respawn at a"
-		"" "  more convenient location.  "
+		"" "  The cube will then respawn from the dropper."
+		"" "  This is useful to precisely position cubes, or respawn at a more convenient location.  "
 		"" "  Infinite and a delay of 3 disable this behaviour."
 		}
 	"all_conf"	"cube"
@@ -85,6 +98,11 @@ This doesn't affect cube nudging. When the bomb explodes like this, it does not 
 	{
 	"ID"   "BEE2_CUBE_DROPPER_CLEAN_CAP"
 	"file" "cube_dropper_cap.vmf"
+	}
+"BrushTemplate"
+	{
+	"ID"   "BEE2_CUBE_DROPPER_REMOVE_TOP"
+	"file" "cube_dropper_rem_top.vmf"
 	}
 
 "Item"
@@ -199,82 +217,3 @@ This doesn't affect cube nudging. When the bomb explodes like this, it does not 
 	"Config" "reflection_dropper"
 	}
 
-	
-"PackList"
-	{
-	"ID"        "PACK_BEE2_NOPAINT_CATAPULT_SIGN"
-	"Config"
-		{
-		"File"  "materials/BEE2/no_paint/signage_arrow_world.vmt"
-		"File"  "materials/BEE2/no_paint/signage_catapult1_world.vmt"
-		"File"  "materials/BEE2/no_paint/signage_catapult2_world.vmt"
-		}
-	}
-	
-"PackList"
-	{
-	"ID"        "PACK_BEE2_CATAPULT_TOGGLE"
-	"Config"
-		{
-		"File"  "models/BEE2/props_ingame/faith_plate_toggle.mdl"
-		}
-	}
-	
-"PackList"
-	{
-	"ID"        "PACK_BEE2_BULLSEYE_CLEAN_WHITE_CEIL"
-	"AddIfMat"  "BEE2/bullseye/white_ceiling_tile"
-	"Config"
-		{
-		"File" "materials/BEE2/bullseye/white_ceiling_tile.vmt"
-		"File" "materials/BEE2/bullseye/white_ceiling_tile.vtf"
-		"File" "materials/BEE2/bullseye/bullseye_glow.vtf"
-		}
-	}
-"PackList"
-	{
-	"ID"        "PACK_BEE2_BULLSEYE_CLEAN_WHITE_FLOOR"
-	"AddIfMat"  "BEE2/bullseye/white_floor_tile"
-	"Config"
-		{
-		"File" "materials/BEE2/bullseye/white_floor_tile.vmt"
-		"File" "materials/BEE2/bullseye/white_floor_tile.vtf"
-		"File" "materials/BEE2/bullseye/bullseye_glow.vtf"
-		}
-	}
-"PackList"
-	{
-	"ID"        "PACK_BEE2_BULLSEYE_CLEAN_WHITE_WALL"
-	"AddIfMat"  "BEE2/bullseye/white_wall_tile"
-	"Config"
-		{
-		"File" "materials/BEE2/bullseye/white_wall_tile.vmt"
-		"File" "materials/BEE2/bullseye/white_wall_tile.vtf"
-		"File" "materials/BEE2/bullseye/bullseye_glow.vtf"
-		}
-	}
-	
-"PackList"
-	{
-	"ID"        "PACK_BEE2_BULLSEYE_CLEAN_BLACK_FLOORCEIL"
-	"AddIfMat"  "BEE2/bullseye/black_ceiling_metal"
-	"AddIfMat"  "BEE2/bullseye/black_floor_metal"
-	"Config"
-		{
-		"File" "materials/BEE2/bullseye/black_ceiling_metal.vmt"
-		"File" "materials/BEE2/bullseye/black_floor_metal.vmt"
-		"File" "materials/BEE2/bullseye/black_floor_metal.vtf"
-		"File" "materials/BEE2/bullseye/bullseye_glow.vtf"
-		}
-	}
-"PackList"
-	{
-	"ID"        "PACK_BEE2_BULLSEYE_CLEAN_WHITE_WALL"
-	"AddIfMat"  "BEE2/bullseye/black_wall_metal"
-	"Config"
-		{
-		"File" "materials/BEE2/bullseye/black_wall_metal.vmt"
-		"File" "materials/BEE2/bullseye/black_wall_metal.vtf"
-		"File" "materials/BEE2/bullseye/bullseye_glow.vtf"
-		}
-	}

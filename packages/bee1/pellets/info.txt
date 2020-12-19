@@ -55,7 +55,9 @@
 		"" "* Direct them into catchers to activate them."
 		"" "* The timer property controls how long it will last until exploding."
 		"" "* If set to infinite, enabling the input will spawn the pellet; disabling it destroys the pellet."
-		"" "* If respawn is disabled, the launcher will permanently disabled once a catcher receives this pellet."
+		"" "* The respawn checkbox does different things depending on the timer property.  "
+		"" "    If the emitter is timed, the launcher will be permanently disabled once a catcher receives this pellet.  "
+		"" "    If the emitter is infinite, this controls whether the pellet will be replaced if destroyed and the input is still active."
 		}
 	"All_conf" "launcher.cfg"
 	"Version"
@@ -64,7 +66,7 @@
 			{
 			"BEE2_CLEAN"    "launcher"
 			"BEE2_1950s"    "launcher_50s"
-			"BEE2_PORTAL_1" "launcher_p1"
+			"BEE2_PORTAL_1" "<BEE2_CLEAN>" // Identical
 			"BEE2_OVERGROWN"
 				{
 				"Base"  "BEE2_CLEAN"
@@ -78,21 +80,6 @@
 			"BEE2_1980s" "<BEE2_OVERGROWN>"
 			}
 		}
-	}
-"BrushTemplate"
-	{
-	"ID"   "BEE_HEP_EMITTER_BASE_CLEAN"
-	"File" "hep_emitter_base.vmf"
-	}
-"BrushTemplate"
-	{
-	"ID"   "BEE_HEP_EMITTER_BASE_P1"
-	"File" "hep_emitter_base_p1.vmf"
-	}
-"BrushTemplate"
-	{
-	"ID"   "BEE_HEP_EMITTER_BASE_P1_SIGN"
-	"File" "hep_emitter_base_p1_sign.vmf"
 	}
 	
 
@@ -121,11 +108,6 @@
 			"BEE2_OVERGROWN"
 				{
 				"Base"  "BEE2_CLEAN"
-				"Replace"
-					{
-					"PACK_PELLET_CATCHER_TIM_CLEAN" "PACK_PELLET_CATCHER_TIM_DIRTY"
-					"PACK_PELLET_CATCHER_CLEAN"     "PACK_PELLET_CATCHER_INF_DIRTY"
-					}
 				"Instances"
 					{
 					"bee2_perm"  "instances/BEE2/over/items/BEE/hep/catcher_perm.vmf"
@@ -145,21 +127,17 @@
 	}
 "BrushTemplate"
 	{
-	"ID"   "BEE_HEP_CATCHER_BASE_P1_EXTENDED"
-	"File" "hep_catcher_base_p1_extended.vmf"
-	}
-"BrushTemplate"
-	{
 	"ID"   "BEE_HEP_CATCHER_BASE_P1_PISTON"
 	"File" "hep_catcher_base_p1_piston.vmf"
 	}
 "BrushTemplate"
 	{
-	"ID"   "BEE_HEP_CATCHER_BASE_P1_FLAT"
-	"File" "hep_catcher_base_p1_flat.vmf"
+	"ID"   "BEE_HEP_CATCHER_BASE_RETRO"
+	"File" "hep_catcher_retro.vmf"
 	}
 
 
+// Emitterless infinite HEP.
 "Item"
 	{
 	"ID"       "ITEM_HIGH_ENERGY_PELLET_INF"
@@ -172,6 +150,63 @@
 			}
 		}
 	}
+
+// Add in the original pellet signage.
+"Signage"
+	{
+	"ID" "SIGN_BEE_HEP_IMPACT"
+	"Name" "High Energy Pellet Impact / Danger"
+	"Styles"
+		{
+		"BEE2_CLEAN"
+			{
+			"overlay" "signage/signage_overlay_energyball"
+			"icon"    "items/clean/BEE/signage/pellet_hit.png"
+			}
+		"BEE2_PORTAL_1" "BEE2_CLEAN"
+		"BEE2_1980s" "BEE2_CLEAN"
+		"BEE2_1950s"
+			{
+			"overlay" "BEE2/50s/pellet_impact"
+			"icon"    "items/50s/BEE/signage/pellet_hit.png"
+			}
+		"BEE2_1970s"
+			{
+			"overlay" "BEE2/70s/signage_pellet_hit"
+			"icon"    "items/70s/BEE/signage/pellet_hit.png"
+			}
+		"BEE2_1980s" "BEE2_CLEAN"
+		}
+	}
+
+"Signage"
+	{
+	"ID" "SIGN_BEE_HEP_CATCHER"
+	"Name" "High Energy Pellet Catcher"
+	"Secondary" "SIGN_BEE_HEP_IMPACT"
+	"Styles"
+		{
+		"BEE2_CLEAN"
+			{
+			"overlay" "BEE2/signage/signage_pellet_catcher"
+			"icon"    "items/clean/BEE/signage/pellet_catcher.png"
+			}
+		"BEE2_PORTAL_1" "BEE2_CLEAN"
+		"BEE2_1980s" "BEE2_CLEAN"
+		"BEE2_1950s"
+			{
+			"overlay" "BEE2/50s/pellet_catcher"
+			"icon"    "items/50s/BEE/signage/pellet_catcher.png"
+			}
+		"BEE2_1970s"
+			{
+			"overlay" "BEE2/70s/signage_pellet_catcher"
+			"icon"    "items/70s/BEE/signage/pellet_catcher.png"
+			}
+		"BEE2_1980s" "BEE2_CLEAN"
+		}
+	}
+
 
 "EditorSound"
 	{
